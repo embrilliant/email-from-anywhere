@@ -30,7 +30,6 @@ $sendername=$_POST[sendername];
 
 $senderemail=$_POST[senderemail];
 
-
 mail("$recipientemail", "$subject", $msg, "From: $sendername <$senderemail>");
 
 echo "Email sent.";
